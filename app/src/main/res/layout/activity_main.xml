@@ -19,13 +19,16 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="불러오기" />
+            android:background="#FFF176"
+            android:text="불러오기"
+            tools:visibility="visible" />
 
         <Button
             android:id="@+id/save"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="#25DFCD"
             android:text="저장하기" />
 
         <Button
@@ -33,9 +36,10 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="#EA8282"
             android:text="삭제하기" />
-    </LinearLayout>
 
+    </LinearLayout>
 
     <EditText
         android:id="@+id/text"
@@ -43,6 +47,7 @@
         android:layout_height="match_parent"
         android:layout_weight="9"
         android:gravity="top"
+        android:hint="내용을 입력하시오"
         android:textIsSelectable="false"
         android:visibility="visible"
         tools:visibility="visible" />
